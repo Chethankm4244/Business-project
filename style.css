@@ -1,0 +1,193 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+   
+    font-family: 'Fira Sans', sans-serif;
+ }
+:root{
+    --min-color: #fff;
+    --sc-color: #3ec1d5;
+    --th-color: #333;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 0.5rem;
+    font-size: 66%;
+}
+.btn{
+    display: inline-block;
+    padding: 0.8rem 3.8rem;
+    font-size: 1.8rem;
+    border: 0.1rem solid #3ec1d5;
+    outline: 0;
+    background: #3ec1d5;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+.btn:hover{
+    background: none;
+    color:#3ec1d5;
+}
+.heading{
+    margin: 5rem auto;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #333;
+}
+.heading div{
+    display: inline-block;
+    border-bottom: 0.2rem solid #333;
+    width: 15rem;
+}
+.heading div:hover{
+    width: 25rem;
+}
+section{
+    padding: 3rem 9%;
+}
+header{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3%;
+    background: rgba(10, 10, 9, 0.6);
+    z-index: 1001;
+   }
+.Home-page img{
+    width: 100%;
+    height: 100vh;
+   }
+.Home-page h3  {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 35%; left: 500px;
+       align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    }
+.Home-page p{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 40%; left: 350px;
+       align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    }
+
+.Home-page .btn{
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: -430px ; 
+     left: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    }
+
+header .logo{
+    font-size: 3.5rem;
+    color: #fff; 
+    padding: 0.4rem;
+    }
+header .navbar a{
+    margin: 0 0.8rem;
+    font-size: 1.9rem;
+    color: #fff;
+    padding: 0.4rem ;
+    }
+header .navbar a:hover,
+header .fa-bars:hover{
+    color: #3ec1d5;
+    }
+header .fa-bars{
+    font-size: 2.8rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    }
+
+.about{
+    background: #eee;
+   }
+.about .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 7rem;
+    }
+.about .box .content p{
+    color: #333;
+    font-size: 2rem;
+    margin: 2rem 0;
+    }
+.about .box .content div{
+    color: #333;
+    font-size: 2.2rem;
+    }
+
+.contact .box{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit,minmax(30%,1fr));
+    gap: 2rem;
+    text-align: center;
+    }
+.contact .box i{
+    font-size: 3.8rem;
+    color: #3ec1d5;
+    }
+.contact .box div{
+    font-size: 2rem;
+    color:#333;
+    margin: 1rem 0;
+    }
+
+   .services div a{
+    color:#333;
+    font-size: 2.5rem;
+    display: block;
+   }
+
+.footer{
+    background: #222;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
+    gap: 2rem;
+    text-align: center;
+    padding: 4rem;
+    }
+.footer h3{
+    font-size: 3.5rem;
+    margin: 2rem 0;
+    color:#fff;
+    }
+.footer p{
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    color: #fff;
+    }
+.footer i{
+    font-size: 2.6rem;
+    margin: 1rem 0.5rem;
+    color: #fff;
+    }
+.footer i:hover,.footer a:hover{
+    color: #3ec1d5;
+}
+.footer a{
+    display: block;
+    font-size: 2rem;
+    margin: 0.5rem;
+    color: #fff;
+}
